@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Titulo de Pagina</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body class="m-3">
+	<h1>Si hay datos hay tabla</h1>
+
+	<h2>Tabla simple</h2>
+
+	<p>tabla - cuerpo - fila - celda</p>
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+			</tr>
+			<td>hola</td>
+		</tbody>
+	</table>
+
+	<h2> Tabla múltiples filas y columnas</h2>
+
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+				<td>x</td>
+				<td>0</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>x</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>0</td>
+				<td>x</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2>Tabla con cabecera y cuerpo</h2>
+
+	<table class="table table-bordered table-striped table-hover table-dark">
+		<thead>
+			<tr>
+				<th>Clave</th>
+				<th>Valor</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><strong>Nombre</strong></td>
+				<td>Bob</td>
+			</tr>
+			<tr>
+				<td><strong>Apellido</strong></td>
+				<td>Esponja</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2>Tabla con cabecera, cuerpo pie de página y caption </h2>
+
+	<table class="table table-bordered table-striped table-hover table-dark">
+		<caption>Tabla sin mucho sentido</caption>
+		<thead>
+			<tr>
+				<th>Clave</th>
+				<th>Valor</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><strong>Nombre</strong></td>
+				<td>Bob</td>
+			</tr>
+			<tr>
+				<td><strong>Apellido</strong></td>
+				<td>Esponja</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>Total</th>
+				<th>Bob Esponja</th>
+			</tr>
+		</tfoot>
+	</table>
+	<h2>Coumnas largas</h2>
+
+	<table class="table table-bordered table-striped table-hover">
+		<thead class="table-dark">
+			<tr>
+				<th colspan="2">
+					Input
+				</th>
+				<th colspan="2">
+					Output
+				</th>
+
+			</tr>
+			<tr>
+				<th>A</th>
+				<th>B</th>
+				<th>And</th>
+				<th>Or</th>
+			</tr>
+		<tbody>
+			<tr>
+				<td>True</td>
+				<td>True</td>
+				<td>True</td>
+				<td>True</td>
+			</tr>
+			<tr>
+				<td>True</td>
+				<td>False</td>
+				<td>False</td>
+				<td>True</td>
+			</tr>
+			<tr>
+				<td>False</td>
+				<td>True</td>
+				<td>False</td>
+				<td>True</td>
+			</tr>
+			<tr>
+				<td>False</td>
+				<td>False</td>
+				<td>False</td>
+				<td>False</td>
+			</tr>
+		</tbody>
+		</thead>
+	</table>
+</body>
+
+
+</html>
