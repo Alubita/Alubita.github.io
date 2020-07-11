@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;400&display=swap');
+html,body{font-family: 'Karla', sans-serif;}
+.main-title{text-align: left; font-size: 26; color: black}
+h3{font-size: 12; color:black}
+.card{text-align: center; font-size: 12; color: black;}
+body{padding:2.5em 6% ;}
+h3{padding: 1.5;}
+h3group{text-align: right;}
+.row{font-size: 11;}
+.container{padding-right:0em;}
